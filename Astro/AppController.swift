@@ -16,6 +16,7 @@ class AppController : IAppController {
     var window: UIWindow!
     var mainTabController: UITabBarController!
     var channelTableViewController: ChannelTableViewController!
+    var channelCollectionViewController: ChannelCollectionViewController!
     
     var apiClient = APIClient()
     var channelsStore: IChannelsStore!
@@ -29,10 +30,13 @@ class AppController : IAppController {
         let viewModel = ChannelTableViewModel(channelsStore: channelsStore)
         channelTableViewController.viewModel = viewModel
         
+        channelCollectionViewController = ChannelCollectionViewController(nibName: "ChannelCollectionViewController", bundle: nil)
+        
         let channelNavigationController = UINavigationController(rootViewController: channelTableViewController)
+        let collectionNavigationController = UINavigationController(rootViewController: channelCollectionViewController)
         
         mainTabController = UITabBarController()
-        mainTabController.viewControllers = [channelNavigationController]
+        mainTabController.viewControllers = [channelNavigationController, collectionNavigationController]
         
         
         window.rootViewController = mainTabController

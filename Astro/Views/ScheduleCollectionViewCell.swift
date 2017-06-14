@@ -13,6 +13,8 @@ class ScheduleCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.black.cgColor
     }
 
 }

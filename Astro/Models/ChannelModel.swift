@@ -11,6 +11,7 @@ import Foundation
 class ChannelModel {
     var name: String
     var id: Int = -1
+    var events = [EventModel]()
     
     init(data: [String: Any]) {
         name = data["channelTitle"] as! String

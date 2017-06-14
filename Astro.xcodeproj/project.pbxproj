@@ -27,6 +27,7 @@
 		7F5F68971EF0377C00FF5FA7 /* StickyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F68951EF0377C00FF5FA7 /* StickyCollectionViewCell.xib */; };
 		7F5F689A1EF0379500FF5FA7 /* ScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F68981EF0379500FF5FA7 /* ScheduleCollectionViewCell.swift */; };
 		7F5F689B1EF0379500FF5FA7 /* ScheduleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5F68991EF0379500FF5FA7 /* ScheduleCollectionViewCell.xib */; };
+		7FEA27F91EF17E0C0021DA50 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA27F81EF17E0C0021DA50 /* EventModel.swift */; };
 		C9164A03813096EB42370238 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4475B4C9B54ECA2041D989 /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		7F5F68951EF0377C00FF5FA7 /* StickyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickyCollectionViewCell.xib; sourceTree = "<group>"; };
 		7F5F68981EF0379500FF5FA7 /* ScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
 		7F5F68991EF0379500FF5FA7 /* ScheduleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCollectionViewCell.xib; sourceTree = "<group>"; };
+		7FEA27F81EF17E0C0021DA50 /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		8CFA92ED853061B367BC6A91 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		B66D7062B59AA58FA0A23BC2 /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Astro/Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
 		DB4475B4C9B54ECA2041D989 /* Pods_Astro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 			children = (
 				7F14AA991EEED22300143790 /* ChannelListModel.swift */,
 				7F14AA9B1EEED23800143790 /* ChannelModel.swift */,
+				7FEA27F81EF17E0C0021DA50 /* EventModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				7F14AA981EEED0BF00143790 /* APIClient.swift in Sources */,
 				7F14AA7B1EEEC63100143790 /* AppController.swift in Sources */,
 				7F14AA7E1EEEC70A00143790 /* ChannelTableViewController.swift in Sources */,
+				7FEA27F91EF17E0C0021DA50 /* EventModel.swift in Sources */,
 				7F14AA961EEECFE400143790 /* ChannelsStore.swift in Sources */,
 				7F14AA8C1EEEC9CC00143790 /* ChannelTableViewModel.swift in Sources */,
 				7F14AA911EEECAAA00143790 /* ChannelTableViewCell.swift in Sources */,
